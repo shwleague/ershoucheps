@@ -1,0 +1,453 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-04 17:56:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 14:46:45
+*/
+@import url('bace.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 531082 */
+  src: url('http://at.alicdn.com/t/font_531082_0by5x2fzwmm9rudi.eot');
+  src: url('http://at.alicdn.com/t/font_531082_0by5x2fzwmm9rudi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531082_0by5x2fzwmm9rudi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531082_0by5x2fzwmm9rudi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531082_0by5x2fzwmm9rudi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+body{
+	height: auto;
+}
+.head{
+	width: 100%;
+	height: 0.44rem;
+	/* background: red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+      box-shadow: 0 0 0.1rem 0.01rem rgba(0, 0, 0, 0.3);
+}
+.head .headli{
+	padding: 0.02rem 0.2rem;
+	background:#fff; 
+	height: 0.4rem;
+}
+.head .headli li{
+	width: auto;
+	float: left;
+	height: 0.4rem;
+}
+.head .headli li:first-child{
+	margin: 0 auto;
+}
+.head .headli li:last-child{
+	float: right;
+}
+.head .headli li .dingwei{
+	font-size: 0.15rem;
+	width: auto;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.head .headli li .sou{
+	width:auto;
+	height: auto;
+	margin: 0.04rem 0  0 0; 
+	float: right;
+}
+.head .headli li .sou .iconfont{
+	font-size: 0.11rem;
+	color: #c8c6ce;
+	margin-left: 0.6rem;
+	line-height: 0.32rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height:auto;
+	/* background: red; */
+    margin-top: 0.44rem;
+}
+.banner_img{
+	width: 100%;
+	height:auto;
+	/* background: yellow; */
+}
+.banner_img li{
+	width: 100%;
+	height: auto;
+}
+.banner_img li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.anniu{
+	width: 100%;
+	height: auto;
+}
+.anniu a{
+	padding: 0.08rem 0.2rem;
+	width: auto;
+	height: auto;
+	display: block;
+}
+.anniu a:last-child{
+	padding: 0.08rem 0.4rem;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+.anniu a .maiche{
+	width: 2.8rem;
+	height: 0.4rem;
+	background: #58c5c7;
+	margin: 0 auto;
+	border-radius: 0.05rem;
+}
+.anniu a .maiche p{
+	font-size: 0.17rem;
+	font-weight: bold;
+	color: #fff;
+   text-align: center;
+   line-height: 0.4rem;
+}
+.anniu a .maiche2{
+	width: auto ;
+	height: 0.4rem;
+	border: 0.02rem solid #58c5c7;
+	float: left;
+	border-radius: 0.05rem;
+	background: #fff;
+	
+}
+.anniu a .maiche2 p{
+	font-size: 0.17rem;
+	color: #58c5c7;
+   text-align: center;
+   line-height: 0.4rem;
+   padding: 0 0.2rem;
+}
+.anniu a .maiche5{
+	width: auto;
+	height: 0.4rem;
+	border: 0.02rem solid #58c5c7;
+	margin: 0 0.08rem;
+	border-radius: 0.05rem;
+	background: #fff;
+float: right;
+padding: 0 0.2rem;
+}
+.anniu a .maiche5 p{
+	font-size: 0.17rem;
+	
+	color: #58c5c7;
+   text-align: center;
+   line-height: 0.4rem;
+}
+.anniu a .maiche3{
+	width: 2.8rem;
+	height: auto;
+}
+.anniu a .maiche3 p{
+	font-size: 0.12rem;
+	color: black;
+}
+.anniu a .maiche3 p span{
+	font-size: 0.18rem;
+	color: #58c5c7;
+}
+.anniu a .maiche4{
+	width: 100%;
+	height: auto;
+	font-size: 0.15rem;
+	color: black;
+	border: 0.02rem solid #f5f5f5;
+	padding: 0.06rem  0;
+}
+/* 每日好车推荐 */
+.tui{
+	width: 100%;
+	height: auto;
+	border-top: 0.04rem solid  #f0f0f0;
+	/* border-bottom: 0.04rem solid  #f0f0f0; */
+}
+.tui .tuitop{
+	width: 100%;
+	height: auto;
+	border-bottom: 0.02rem solid #f5f5f5;
+}
+.tui .tuitop a{
+	display: block;
+}
+.tui .tuitop a p{
+	font-size: 0.15rem;
+	color: #000;
+	margin: 0.15rem 0.2rem;
+}
+.tui .tuixia{
+	width: 100%;
+	height: auto;
+	margin-top: 0.1rem;
+	/* background: blue; */
+}
+.tui .tuixia ul{
+	width: 100%;
+	height: 100%;
+	
+display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+     flex-wrap: wrap;
+
+}
+.tui .tuixia ul li{
+	width: 24%;
+	height:auto;
+	/* margin: 0  0.2rem 0.03rem; */
+}
+.tui .tuixia ul li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tui .tuixia ul p{
+color: #f60;
+font-size: 0.14rem;
+margin-bottom: 0.05rem;
+}
+/* 猜你喜欢 */
+.like{
+	width: 100%;
+	height: auto;
+	/* background: red; */
+}
+.like .liketop{
+	width: 100%;
+	height: auto;
+	border-bottom: 0.02rem solid #f5f5f5;
+}
+.like .liketop a{
+	display: block;
+}
+.like .liketop a p{
+	font-size: 0.15rem;
+	
+	color: #000;
+	margin: 0.15rem 0.2rem;
+	
+}
+.like .likexia{
+	width: 100%;
+	height: auto;
+}
+.like .likexia ul{
+	width: 100%;
+	height: auto;
+}
+.like .likexia ul a li{
+	width: 100%;
+	height: auto;
+	padding: 0.2rem;
+	border-bottom: 0.02rem solid #f0f0f0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.like .likexia ul a li:last-child{
+	border-bottom: 0;
+}
+.like .likexia ul a li .liketu{
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-right: 0.03rem;
+
+}
+.like .likexia ul a li .liketu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.like .likexia ul a li .zi{
+	width: 53%;
+	float: right;
+	height: auto;
+}
+.like .likexia ul a li .zi .t{
+	font-size: 0.17rem;
+	width: auto;
+	color: #72787c;
+}
+.like .likexia ul a li .zi .m{
+	font-size: 0.12rem;
+	color: #72787c;
+}
+.like .likexia ul a li .zi .x{
+	font-size: 0.15rem;
+	color: #f60;
+	margin-top: 0.02rem;
+}
+.like .likexia ul a li .zi .x span{
+font-size: 0.12rem;
+	color: #72787c;
+	margin-top: 0.02rem;
+}
+/* 查看更多 */
+.more{
+	width: 100%;
+	height: auto;
+}
+.more1{
+	width: 1.74rem;
+	height: 0.36rem;
+	margin: 0.07rem auto;
+	border: 0.01rem solid #807f91;
+	border-radius: 0.05rem;
+	font-size: 0.15rem;
+	color: #807f91;
+	line-height: 0.36rem;
+	text-align: center;
+}
+/* 买家服务 */
+.mai{
+	width: 100%;
+	height: auto;
+	border-top: 0.04rem solid  #f0f0f0;
+	border-bottom: 0.04rem solid  #f0f0f0;
+}
+.mai .maitop{
+	width: 100%;
+	height: auto;
+	border-bottom: 0.02rem solid #f5f5f5;
+}
+.mai .maitop a{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.mai .maitop a p{
+	font-size: 0.15rem;
+	color: #000;
+	margin: 0.15rem 0.2rem;
+}
+.mai .maitop a p span{
+	font-size: 0.11rem;
+	color: #58c5c7;
+	
+	float: right;
+}
+.mai .maixia{
+	width: 100%;
+	height: auto;
+	margin-top: 0.1rem;
+}
+.mai .maixia ul{
+	width: 100%;
+	height: 100%;
+
+}
+.mai .maixia ul li{
+	width: 100%;
+	height:auto;
+	padding: 0.1rem  0.2rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.mai .maixia ul p{
+color: black;
+font-size: 0.14rem;
+margin-bottom: 0.05rem;
+}
+.mai .maixia ul p span{
+color:#58c5c7 ;
+font-size: 0.17rem;
+margin-bottom: 0.05rem;
+}
+.mai .xiaxia{
+	padding: 0.1rem  0.2rem;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mai .xiaxia p{
+	height: auto;
+	font-size: 0.12rem;
+}
+.mai .xiaxia .iconfont{
+	height: auto;
+	font-size: 0.37rem;
+	font-style: normal;
+	display: block;
+}
+/* }结尾 */
+.end3{
+	width: 100%;
+	height: auto;
+	background: #f1f3f6;
+	font-size: 0.13rem;
+	color: #7a7fa4;
+	text-align: center;
+	margin-bottom: 0.52rem;
+	padding-top: 0.03rem;
+}
+.end3 p{
+	margin-bottom: 0.03rem;
+	background: #f1f3f6;
+	font-size: 0.10rem;
+	color: #7a7fa4;
+	text-align: center;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: auto;
+	padding: 0.05rem 0;
+	background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+   box-shadow: 0 0 0.1rem 0.01rem rgba(0, 0, 0, 0.3);
+
+
+}
+.tab ul{
+	width: 100%;
+	height: auto;
+     display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li a{
+  display: block;
+}
+.tab ul li a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #7a7fa4;
+}
+.tab ul li a p{
+	font-size: 0.12rem;
+	color: #7a7fa4;
+}
+.tab ul li:nth-child(3) a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #58c5c7;
+}
+.tab ul li:nth-child(3) a p{
+	font-size: 0.12rem;
+	color: #58c5c7;
+}

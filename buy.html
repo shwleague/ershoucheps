@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>二手车</title>
+	<link rel="stylesheet" href="css/buy.css">
+     <link rel="shortcut icon" href="img/620b74a980963d4b8d030b1dd88e6692.png">
+	<script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	  <!-- 头部 -->
+	  <div class="head">
+	  	<ul class="headli">
+	  		<li>
+	  			<p class="dingwei">太原</p>
+	  			<i class="iconfont">&#xe617;</i>
+	  		</li>
+	  		<li>
+	  			<div class="sou">
+	  			     <i class="iconfont">&#xe634;</i>
+	  				<p class="souzi">搜索你想要的车</p>
+	  				 <i class="iconfont">&#xe750;</i>
+	  			</div>
+	  		</li>
+	  	</ul>
+	  	<ul class="headlifen">
+	  		<li>
+	  			<p class="fenzi">默认排序</p>
+	  			<i class="iconfont">&#xe617;</i>
+	  		</li>
+	  		<li>
+	  			<p class="fenzi">价格</p>
+	  			<i class="iconfont">&#xe617;</i>	  			
+	  		</li>
+	  		<li>
+	  			<p class="fenzi">品牌</p>
+	  			<i class="iconfont">&#xe617;</i>
+	  		</li>
+	  		<li>
+	  			<p class="fenzi">筛选</p>
+	  			<i class="iconfont">&#xe617;</i>	  			
+	  		</li>
+	  	</ul>
+	  </div>
+      <script>
+          $('.headlifen').hide();
+          $(document).scroll(function () {
+              let scroltop=$(this).scrollTop();
+
+              if(scroltop>200){
+                  $('.headlifen').slideDown();
+              }
+              else {
+                  $('.headlifen').slideUp();
+              }
+          });
+
+      </script>
+	  <a name="cc"></a>
+	  <!-- banner -->
+	  <div class="banner">
+    	<ul class="banner_img">
+    		<li>
+    			<img src="img/banner (3).jpg" alt="">
+    		</li>
+    	</ul>
+    </div>
+          <!-- 推荐 -->
+    <div class="like">
+        <div class="liketop">
+                <a href="">
+                    <p>好车推荐</p>
+                </a>
+            </div>
+            <div class="likexia">
+                <ul>
+                    <li><a href="xiang.html">
+                        <div class="liketu">
+                            <img src="img/liketu (1).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">现代 劳恩斯 酷派 2009款自动豪华版</p>
+                        <p class="m">2009年/11.7万公里</p>
+                        <p class="x">16.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                        </a>
+                    </li>
+                
+                <li>
+                        <div class="liketu">
+                            <img src="img/liketu (2).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">宝马7系 2017款 740Li个性化定制版</p>
+                        <p class="m">2016年/3.5万公里</p>
+                        <p class="x">106.00万</p>
+                        <p class="s">首付 9.50万</p>
+                 <li>
+                        <div class="liketu">
+                            <img src="img/liketu (3).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2015款 E200 L</p>
+                        <p class="m">2016年/106万公里</p>
+                        <p class="x">29.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li>
+                <li>
+                        <div class="liketu">
+                            <img src="img/liketu (4).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liketu">
+                            <img src="img/liketu (5).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li>
+                      <li>
+                        <div class="liketu">
+                            <img src="img/liketu (6).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (7).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (8).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (9).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (10).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (11).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (12).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (13).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (14).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (15).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (16).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (17).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (18).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (19).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (20).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (21).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (22).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (23).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (24).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (25).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (26).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (27).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (28).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (29).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li><li>
+                        <div class="liketu">
+                            <img src="img/liketu (30).jpg" alt="">
+                        </div>
+                        <div class="zi">
+                        <p class="t">奔驰E级 2014款 E 260 L 运动型
+</p>
+                        <p class="m">2014年/6.4万公里</p>
+                        <p class="x">20.00万</p>
+                        <p class="s">首付 1.50万</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="more">
+                    <div class="more1">
+                        查看更多
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+      <!-- TAB -->
+      <div class="tab">
+      	     <ul>
+      	     	<li>
+      	     		<a href="index.html">
+      	     			<i class="iconfont">&#xe603;</i>
+      	     			<p>首页</p>
+      	     		</a>
+      	     	</li>
+      	     	<li>
+      	     		<a href="buy.html">
+      	     			<i class="iconfont">&#xe60f;</i>
+      	     			<p>买车</p>
+      	     		</a>
+      	     	</li>
+      	     	<li>
+      	     		<a href="sell.html">
+      	     			<i class="iconfont">&#xe61b;</i>
+      	     			<p>卖车</p>
+      	     		</a>
+      	     	</li>
+      	     	<li>
+      	     		<a href="mine.html">
+      	     			<i class="iconfont">&#xe62f;</i>
+      	     			<p>我的</p>
+      	     		</a>
+      	     	</li>
+      	     </ul>
+      </div>
+      <!-- 一键直达 -->
+      <a href="#cc">
+      <div class="yi">
+            <i class="iconfont">&#xe617;</i>
+      	     <p>TOP</p>
+      </div>
+      </a>
+</body>
+</html>
